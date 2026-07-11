@@ -1,6 +1,6 @@
 # 📊 MITRE-ATTACK-pcaps
 
-[![MITRE ATTACK](https://img.shields.io/badge/Matrix-MITRE%20ATT%2CK-orange.svg)](https://attack.mitre.org/)
+[![MITRE ATTACK](https://img.shields.io/badge/Matrix-MITRE%20ATTACK-orange.svg)](https://attack.mitre.org/)
 [![Security](https://img.shields.io/badge/Focus-Network%20Security%20%26%20Benchmarking-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
