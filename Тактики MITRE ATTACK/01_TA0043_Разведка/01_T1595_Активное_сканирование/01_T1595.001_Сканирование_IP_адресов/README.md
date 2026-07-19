@@ -22,6 +22,9 @@
 | `T1595.001_nmap_IP-in-IP_PING_PO4.pcap` | T1595.001 | nmap -sn -PO4 IP | Отправляет IP-пакеты с указанным номером протокола в заголовке (PO4 - IPv4 пакеты). Обнаруживает хосты по ответам с тем же протоколом или ICMP-сообщениям "Protocol Unreachable". | 40 КБ |
 | `T1595.001_nmap_SCTP-INIT_ping_PY22,80,443.pcap` | T1595.001 | nmap -sn -PY22,80,443 IP | Отправляет SCTP-пакет с флагом INIT. Ответ INIT-ACK или ABORT сигнализирует о живом хосте. Если хост не поддерживает SCTP, то отправляет ICMP-сообщение "Protocol Unreachable" | 127 КБ |
 | `T1595.001_nmap_ICMP_ping_fragmentation_packets_PP_F.pcap` | T1595.001 | nmap -sn -PP -F IP | Разбивает ICMP-пакеты на мелкие фрагменты (по 8 байт). Позволяет обойти простые FW и IDS/IPS, которые не собирают фрагменты | 116 КБ |
+| `T1595.001_nmap_ICMP_ping_fragmentation_packets_PM_F.pcap` | T1595.001 | nmap -sn -PM -F IP | Разбивает ICMP-пакеты на мелкие фрагменты (по 8 байт). Позволяет обойти простые FW и IDS/IPS, которые не собирают фрагменты | 78 КБ |
+| `T1595.001_nmap_TCP_SYN_ping_fragmentation_packets_PS80_F.pcap` | T1595.001 | nmap -sn -PS80 -F IP | Разбивает TCP_SYN-пакеты на мелкие фрагменты (по 8 байт). Позволяет обойти простые FW и IDS/IPS, которые не собирают фрагменты | 114 КБ |
+| `T1595.001_nmap_TCP_ACK_ping_fragmentation_packets_PA80_F.pcap` | T1595.001 | nmap -sn -PA80 -F IP | Разбивает TCP_ACK-пакеты на мелкие фрагменты (по 8 байт). Позволяет обойти простые FW и IDS/IPS, которые не собирают фрагменты | 78 КБ |
 | ... | ... | ... | ... | ... |
 
 ---
